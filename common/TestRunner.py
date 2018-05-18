@@ -1,13 +1,13 @@
 # -*- coding=UTF-8 -*-
 import time
 import os
-from HTMLTestRunner import HTMLTestRunner
+from HTMLTestRunner_jpg import HTMLTestRunner
 import unittest
 
 class TestRunner(object):
     """重写html生成报告"""
 
-    def __init__(self, cases="./", title="测试报告",description="用例执行"):
+    def __init__(self, cases="./", title=u"测试报告",description=u"用例执行"):
         self.cases = cases
         self.title = title
         self.des = description

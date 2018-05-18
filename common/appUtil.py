@@ -2,7 +2,7 @@
 import random, time, os
 from appium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
-from utils.logger import Logger
+from common.logger import Logger
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')

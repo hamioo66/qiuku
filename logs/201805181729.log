@@ -1,0 +1,17 @@
+2018-05-18 17:29:22,802 - BrowserEngine - INFO - 您选择了 Chrome 浏览器.
+2018-05-18 17:29:22,802 - BrowserEngine - INFO - 测试服务url是: http://www.baidu.com
+2018-05-18 17:29:27,542 - BrowserEngine - INFO - 启动Chrome浏览器.
+2018-05-18 17:29:28,082 - BrowserEngine - INFO - 打开url: http://www.baidu.com
+2018-05-18 17:29:29,276 - BrowserEngine - INFO - 最大化当前窗口.
+2018-05-18 17:29:29,276 - BrowserEngine - INFO - 设置智能等待10秒.
+2018-05-18 17:29:29,305 - BasePage - INFO - 找到元素'' 成功 通过id值:kw
+2018-05-18 17:29:29,447 - BasePage - INFO - 输入值是'selenium' 
+2018-05-18 17:29:29,470 - BasePage - INFO - 找到元素'' 成功 通过 xpath值://*[@id='su']
+2018-05-18 17:29:29,543 - BasePage - INFO - 当前元素''被点击.
+2018-05-18 17:29:32,002 - BasePage - INFO - 截图成功，保存为: /screenshots
+2018-05-18 17:29:32,005 - BasePage - INFO - 当前Title是selenium_百度搜索
+2018-05-18 17:29:32,016 - BasePage - INFO - 找到元素'' 成功 通过id值:kw
+2018-05-18 17:29:32,073 - BasePage - INFO - 输入值是'python' 
+2018-05-18 17:29:32,088 - BasePage - INFO - 找到元素'' 成功 通过 xpath值://*[@id='su']
+2018-05-18 17:29:32,141 - BasePage - INFO - 当前元素''被点击.
+2018-05-18 17:29:34,509 - BasePage - INFO - 截图成功，保存为: /screenshots
