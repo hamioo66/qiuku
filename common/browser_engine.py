@@ -17,8 +17,7 @@ class BrowserEngine(object):
     def __init__(self, driver):
         self.driver = driver
 
-        # read the browser type from config.ini file, return the driver
-
+    """从配置文件中读取浏览器引擎，并返回该引擎"""
     def open_browser(self):
         config = ConfigParser()
         # file_path = os.path.dirname(os.getcwd()) + '/config/config.ini'
@@ -31,15 +30,15 @@ class BrowserEngine(object):
         logger.info(u"测试服务url是: %s" % url)
 
         global driver
-        # if browser == "Firefox":
-        #     driver = webdriver.Firefox()
-        #     logger.info("Starting firefox browser.")
+        if browser == "Firefox":
+            driver = webdriver.Firefox()
+            logger.info("Starting firefox browser.")
         if browser == "Chrome":
             driver = webdriver.Chrome(self.chrome_driver_path)
             logger.info(u"启动Chrome浏览器.")
-        # elif browser == "IE":
-        #     driver = webdriver.Ie(self.ie_driver_path)
-        #     logger.info("Starting IE browser.")
+        elif browser == "IE":
+            driver = webdriver.Ie(self.ie_driver_path)
+            logger.info("Starting IE browser.")
 
         driver.get(url)
         logger.info(u"打开url: %s" % url)
